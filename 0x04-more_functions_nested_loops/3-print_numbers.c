@@ -13,7 +13,7 @@ void print_numbers(void)
 
 	for (n = 48 ; n <= 57 ; n++)
 	{
-		putchar('n');
+		_putchar('n');
 	}
-	putchar('\n');
+	_putchar('\n');
 }
