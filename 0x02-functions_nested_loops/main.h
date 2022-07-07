@@ -1,12 +1,7 @@
-include "main.h"
+#ifndef MAIN_H
+#define MAIN_H
 
-/**
- *  * main - check the code for _putchar.
- *   *
- *    * Return: Always 0 (Success0
- *     */
-int main(void)
-{
-		_putchar();
-		return (0);
-}
+int _putchar(char c);
+void printputchar(void);
+
+#endif
