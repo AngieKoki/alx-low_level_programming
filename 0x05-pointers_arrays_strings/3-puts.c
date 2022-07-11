@@ -18,7 +18,7 @@ void _puts(char *str)
 
 	for (i = 0; i < len; i++)
 	{
-		char ch = str[];
+		char ch = str[i];
 
 		if (ch == '\n')
 			break;
