@@ -17,7 +17,7 @@ void puts_half(char *str)
 	/** if length mod 2 == 0 divide len by 2 else +1 */
 	while (n < len)
 	{
-		_ptchar(*(str + n));
+		_putchar(*(str + n));
 		n++;
 	}
 	_putchar('\n');
