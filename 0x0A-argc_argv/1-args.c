@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
  * main - prints the number of arguments passed into it
@@ -8,7 +7,7 @@
  * Return: a number
  */
 
-int main(int argc, char const *argv[])
+int main(int argc, char *argv[])
 {
 	int i = 0;
 
