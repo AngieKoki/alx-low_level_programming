@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
-
+#include <stdio.h>
 /**
  * _strlen - gets the length of strings
  * @s: string input
@@ -50,6 +50,7 @@ char *str_concat(char *s1, char *s2)
 
 	while ((*tmp++ = *s2++))
 		;
+	printf("tmp:%c ", *tmp);
 
 	return (conc);
 }
