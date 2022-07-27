@@ -50,7 +50,6 @@ char *str_concat(char *s1, char *s2)
 
 	while ((*tmp++ = *s2++))
 		;
-	printf("tmp:%c ", *tmp);
 
 	return (conc);
 }
