@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * count_word - count the number of words in a string
+ * count_words - count the number of words in a string
  * @s: string input
  * Return: number of words
  */
@@ -43,7 +43,7 @@ char **strtow(char *str)
 	while (*(str + len))
 		len++;
 
-	words = count_word(str);
+	words = count_words(str);
 	if (words == 0)
 		return (NULL);
 
