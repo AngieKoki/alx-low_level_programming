@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 /**
- * _mul: multiply two positive numbers
+ * main: multiply two positive numbers
  * @argc: argument counter
  * @argv: argument vector
  * Return: the result of the multiplication, error is args is incorrect
