@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 /**
- * main: multiply two positive numbers
+ * main -  multiply two positive numbers
  * @argc: argument counter
  * @argv: argument vector
  * Return: the result of the multiplication, error is args is incorrect
@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 			}
 		}
 	}
-		mul = atol(argv[1]) * atol(argv[2]);
-		printf("%lu\n", mul);
-		return (0);
+	mul = atol(argv[1]) * atol(argv[2]);
+	printf("%lu\n", mul);
+	return (0);
 }
