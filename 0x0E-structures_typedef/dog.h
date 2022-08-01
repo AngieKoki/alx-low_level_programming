@@ -1,0 +1,19 @@
+#ifndef _DOG_H
+#define _DOG_H
+
+/**
+ * struct dog - contains elements name, age & owner
+ * @name: name of dog
+ * @age: age of dog
+ * @owner: name of owner
+ * Return: nothing
+ */
+
+struct dog
+{
+	char *name;
+	float age;
+	char *owner;
+};
+
+#endif /*_DOG_H_ */
