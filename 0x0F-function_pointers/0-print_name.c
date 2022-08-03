@@ -1,10 +1,10 @@
 #include "function_pointers.h"
 #include <stdlib.h>
-
+#include <stddef.h>
 /**
  * print_name - prints a name
  * @name: character input of name
- * @f: function pointer to a character 
+ * @f: function pointer to a character
  * Return: nothing
  */
 
