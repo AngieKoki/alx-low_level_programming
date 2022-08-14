@@ -6,7 +6,7 @@
  * Return: number of elements in linked list
  */
 
-size_t list_len(const list_h *h)
+size_t list_len(const list_t *h)
 {
 	size_t p;
 
